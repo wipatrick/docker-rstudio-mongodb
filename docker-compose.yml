@@ -1,0 +1,16 @@
+rstudio:
+  build: ./rstudio
+  container_name: rstudio
+  environment:
+    USER: "testuser"
+    PASSWORD: "testpassword"
+    ROOT: 'TRUE'
+  ports:
+    - "80:8787"
+  links:
+    - mongodb
+mongodb:
+  build: ./mongodb
+  container_name: mongodb
+  ports:
+    - "27017:27017"
