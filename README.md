@@ -36,7 +36,7 @@ $ python data2mongo.py
 {'obs': 3.0, 'satv': 530.0, 'hse': 8.0, 'gpa': 2.3500000000000001, 'hsm': 8.0, 'hss': 6.0, 'sex': 1.0, 'satm': 640.0}
 ```
 
-Switch over to you designated browser on ***http://<DockerHost-IP>*** and login with the specified credentials. Once logged in, you can connect to MongoDB with the pre-installed [RMongo](https://cran.r-project.org/web/packages/RMongo/RMongo.pdf)-package for R as follows.
+Switch over to you designated browser on ***http://&lt;DockerHost-IP&gt;*** and login with the specified credentials. Once logged in, you can connect to MongoDB with the pre-installed [RMongo](https://cran.r-project.org/web/packages/RMongo/RMongo.pdf)-package for R as follows.
 ```
 library(RMongo)
 Loading required package: rJava
