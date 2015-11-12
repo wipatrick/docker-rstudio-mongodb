@@ -8,7 +8,7 @@ This project aims towards automatically setting up a **[dockerized](https://www.
 ## Prerequisites
 * installed [Docker Engine](http://docs.docker.com/) and [Docker Compose](http://docs.docker.com/compose/install/)
 * installed python & pip (only needed to load the sample data into MongoDB)
-* pymongo package (only needed to load the sample data MongoDB)
+* pandas & pymongo package (only needed to load the sample data MongoDB)
 
 ## Getting Started
 
