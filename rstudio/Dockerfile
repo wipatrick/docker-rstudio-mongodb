@@ -1,4 +1,3 @@
-# This Dockerfile is only a placeholder
 FROM rocker/rstudio
 
 MAINTAINER wipatrick
